@@ -11,6 +11,10 @@ Methods can be replaced with mocks at runtime (even those missing on the backend
 
 ### Simplest use case
 
+Install as usual.
+
+    composer require yekhlakov/proxy
+
 Define the proxy and its backend (via `Backend` attribute. The attribute also allows
 to provide parameters to backend constructor)
 
